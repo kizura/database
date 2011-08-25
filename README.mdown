@@ -1,4 +1,4 @@
-mangos-zero-database ![Project status](http://stillmaintained.com/TheLuda/mangos-zero-database.png)
+mangos-zero-database ![Project status](http://getmangos.com/assets/img/repository-status-maintained.png)
 ====================
 A content database for [mangos-zero][10], and *World of Warcraft Client Patch
 1.12* - [_Drums of War_][50]. It is compatible with client 1.12.1 (build 5875),
@@ -12,7 +12,7 @@ been imported from the [UDW database repository][21], and is based on the
 
 Compatibility
 -------------
-This database is compatible with *mangos-zero z1638*.
+This database is compatible with *mangos-zero z1765*.
 
 
 Getting started
@@ -57,9 +57,9 @@ _If_ you feel like submitting an issue, please do so *only* if you are willing
 to provide a detailed report, and are available to verify any solution to the
 issue provided by the developers of this repository.
 
-[10]: https://github.com/TheLuda/mangos-zero "mangos zero"
-[11]: https://github.com/TheLuda/mangos-zero-scriptdev0 "mangos zero scriptdev"
-[12]: https://github.com/TheLuda/mangos-zero-database "mangos-zero database"
+[10]: https://github.com/mangos-zero/server "mangos-zero"
+[11]: https://github.com/mangos-zero/scriptdev0 "mangos-zero scriptdev"
+[12]: https://github.com/mangos-zero/database "mangos-zero database"
 
 [20]: http://zeroproject.udworld.net/ "UDW ZeroProject"
 [21]: https://github.com/udb/zerodatabase "UDW ZeroProject database repository"
