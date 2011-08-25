@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.10, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.10
+-- Server version	5.5.15-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -280,7 +280,12 @@ INSERT INTO `spell_affect` VALUES
 (30814,0,2954368024),
 (30872,0,256),
 (30892,0,134217728),
-(30893,0,134217728);
+(30893,0,134217728),
+(18275,1,4295492618),
+(18274,1,4295492618),
+(18273,1,4295492618),
+(18272,1,4295492618),
+(18271,1,4295492618);
 /*!40000 ALTER TABLE `spell_affect` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

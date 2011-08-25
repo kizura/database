@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.10, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.10
+-- Server version	5.5.15-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -86,7 +86,7 @@ INSERT INTO `command` VALUES
 ('debug bg',3,'Syntax: .debug bgToggle debug mode for battlegrounds. In debug mode GM can start battleground with single player.'),
 ('debug getitemvalue',3,'Syntax: .debug getitemvalue #itemguid #field [int|hex|bit|float]\r\n\r\nGet the field #field of the item #itemguid in your inventroy.\r\n\r\nUse type arg for set output format: int (decimal number), hex (hex value), bit (bitstring), float. By default use integer output.'),
 ('debug getvalue',3,'Syntax: .debug getvalue #field [int|hex|bit|float]\r\n\r\nGet the field #field of the selected target. If no target is selected, get the content of your field.\r\n\r\nUse type arg for set output format: int (decimal number), hex (hex value), bit (bitstring), float. By default use integer output.'),
-('debug moditemvalue',3,'Syntax: .debug modvalue #guid #field [int|float| &= | |= | &=~ ] #value\r\n\r\nModify the field #field of the item #itemguid in your inventroy by value #value. \r\n\r\nUse type arg for set mode of modification: int (normal add/subtract #value as decimal number), float (add/subtract #value as float number), &= (bit and, set to 0 all bits in value if it not set to 1 in #value as hex number), |= (bit or, set to 1 all bits in value if it set to 1 in #value as hex number), &=~ (bit and not, set to 0 all bits in value if it set to 1 in #value as hex number). By default expect integer add/subtract.'),
+('debug moditemvalue',3,'Syntax: .debug moditemvalue #guid #field [int|float| &= | |= | &=~ ] #value\r\n\r\nModify the field #field of the item #itemguid in your inventroy by value #value. \r\n\r\nUse type arg for set mode of modification: int (normal add/subtract #value as decimal number), float (add/subtract #value as float number), &= (bit and, set to 0 all bits in value if it not set to 1 in #value as hex number), |= (bit or, set to 1 all bits in value if it set to 1 in #value as hex number), &=~ (bit and not, set to 0 all bits in value if it set to 1 in #value as hex number). By default expect integer add/subtract.'),
 ('debug modvalue',3,'Syntax: .debug modvalue #field [int|float| &= | |= | &=~ ] #value\r\n\r\nModify the field #field of the selected target by value #value. If no target is selected, set the content of your field.\r\n\r\nUse type arg for set mode of modification: int (normal add/subtract #value as decimal number), float (add/subtract #value as float number), &= (bit and, set to 0 all bits in value if it not set to 1 in #value as hex number), |= (bit or, set to 1 all bits in value if it set to 1 in #value as hex number), &=~ (bit and not, set to 0 all bits in value if it set to 1 in #value as hex number). By default expect integer add/subtract.'),
 ('debug play cinematic',1,'Syntax: .debug play cinematic #cinematicidPlay cinematic #cinematicid for you. You stay at place while your mind fly.'),
 ('debug play sound',1,'Syntax: .debug play sound #soundidPlay sound with #soundid.Sound will be play only for you. Other players do not hear this.Warning: client may have more 5000 sounds...'),
@@ -319,7 +319,8 @@ INSERT INTO `command` VALUES
 ('wp export',3,'Syntax: .wp export [#creature_guid or Select a Creature] $filename'),
 ('wp import',3,'Syntax: .wp import $filename'),
 ('wp modify',2,'Syntax: .wp modify [#creature_guid or Select a Creature]add - Add a waypoint after the selected visualwaittime $timeemote IDspell IDtext1| text2| text3| text4| text5 <text>model1 IDmodel2 IDmove(moves wp to player pos)del (deletes the wp)Only one parameter per time!'),
-('wp show',2,'Syntax: .wp show [#creature_guid or Select a Creature]onfirstlastoffinfoFor using info you have to do first show on and than select a Visual-Waypoint and do the show info!');
+('wp show',2,'Syntax: .wp show [#creature_guid or Select a Creature]onfirstlastoffinfoFor using info you have to do first show on and than select a Visual-Waypoint and do the show info!'),
+('npc aiinfo',2,'Syntax: .npc npc aiinfo\r\n\r\nShow npc AI and script information.');
 /*!40000 ALTER TABLE `command` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

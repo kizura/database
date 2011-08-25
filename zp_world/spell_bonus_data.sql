@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.10, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.10
+-- Server version	5.5.15-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -141,7 +141,10 @@ INSERT INTO `spell_bonus_data` VALUES
 (26573,0,0.04,0,0.04,'Paladin - Consecration'),
 (27803,0.3035,0,0,0,'Priest - Holy Nova Heal Rank 4'),
 (27804,0.3035,0,0,0,'Priest - Holy Nova Heal Rank 5'),
-(27805,0.3035,0,0,0,'Priest - Holy Nova Heal Rank 6');
+(27805,0.3035,0,0,0,'Priest - Holy Nova Heal Rank 6'),
+(15662,0,0,0,0,'Item - Six Demon Bag - Fireball'),
+(11538,0,0,0,0,'Item - Six Demon Bag - Frostbolt'),
+(21179,0,0,0,0,'Item - Six Demon Bag - Chain Lightning');
 /*!40000 ALTER TABLE `spell_bonus_data` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
