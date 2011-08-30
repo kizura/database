@@ -1,0 +1,1 @@
+UPDATE `command` SET `security` = '1' WHERE `name` = 'start';
