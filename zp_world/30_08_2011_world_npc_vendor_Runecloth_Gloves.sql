@@ -1,0 +1,1 @@
+INSERT INTO `npc_vendor` (`entry`, `item`, `maxcount`, `incrtime`) VALUES (11189,14481,1,1200);
