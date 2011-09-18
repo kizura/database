@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_characters
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS `character_gifts`;
 CREATE TABLE `character_gifts` (
   `guid` int(20) unsigned NOT NULL DEFAULT '0',
   `item_guid` int(11) unsigned NOT NULL DEFAULT '0',
-  `entry` int(11) unsigned NOT NULL DEFAULT '0',
+  `entry` int(20) unsigned NOT NULL DEFAULT '0',
   `flags` int(20) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`item_guid`),
   KEY `idx_guid` (`guid`)

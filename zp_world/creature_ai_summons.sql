@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -31,7 +31,7 @@ CREATE TABLE `creature_ai_summons` (
   `spawntimesecs` int(11) unsigned NOT NULL DEFAULT '120',
   `comment` varchar(255) NOT NULL DEFAULT '' COMMENT 'Summon Comment',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='EventAI Summoning Locations';
+) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='EventAI Summoning Locations';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -55,7 +55,8 @@ INSERT INTO `creature_ai_summons` VALUES
 (12,1809.49,750.594,18.0475,4.56791,18000000,'8138'),
 (13,1824.58,747.281,21.1486,3.70162,18000000,'8138'),
 (14,1796.56,758.122,14.7124,5.03836,18000000,'8138'),
-(15,1783.9,745.005,16.111,6.03896,18000000,'8138');
+(15,1783.9,745.005,16.111,6.03896,18000000,'8138'),
+(16,33.7585,491.548,-23.2803,3.15989,120000,'14566');
 /*!40000 ALTER TABLE `creature_ai_summons` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

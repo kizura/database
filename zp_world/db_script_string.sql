@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -67,7 +67,7 @@ INSERT INTO `db_script_string` VALUES
 (2000000044,'It is done...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000045,'There\'s nothing like some scalding mornbrew on a chilly Dun Morogh day to get things started right!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000046,'Oooooo hot hot hot! If that won\'t put spring IN your step,I don\'t know what will!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000000047,'Ribbit! No!! This cannot...ribbit...be! You have duped me with...ribbit...your foul trickery! Ribbit!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000047,'Ribbit! No!! This cannot... ribbit... be! You have duped me with... ribbit... your foul trickery! Ribbit!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000048,'Now let us place this rare earth in my planter...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000049,'Thank you again, $N. This rare earth will be very helpful in my experiments.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000050,'Hello Grimclaw',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
@@ -76,12 +76,38 @@ INSERT INTO `db_script_string` VALUES
 (2000000053,'You know where he is?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000054,'Well, ok. I am now sending people . We need find and help him.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000056,'Hey there, Belm! Give me a mug of Thunder Ale, and one for my good friend $N.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000057,'Spirits of Water, I give you praise, and I beg of you a favour. You have heard $N\'s please, and I trust his inent is noble. Please, will you aid us?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000058,'Thank you great spirit. Thank you!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000059,'You are Dismissed, $N',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000063,'Follow me, good $C. I\'ll have your barding done faster than I could down a Dwarven stout. Mmmm... stout.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000064,'Well, that should do it. Come now, back to the shop to finish our business!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000065,'We will suffer no demon\'s servant in our lands!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000066,'Peace and patience be with you, $N. Remain strong always.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000000076,'Hear ye, denizens of Tanaris! Let it be known $n is an exalted member of the Mithril Order. A blacksmith of honor, dedication, and infinite patience. Three cheers for $n!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000139,'Corbett, dear. Harlan needs a load of knitted shirts and pants as soon as we can manage.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000140,'Corbett, you there? Harlan needs another load of knitted goods. Can you take it to him?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000141,'My pleasure, sugar drop. I\'ll be back soon...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000142,'Business must be good down at the bazaar. I\'ll get him resupplied right away!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000143,'Hm... after dropping this off, I think I\'ll head to that cheese shop for a snack.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000144,'I should have a few extra coins from this sale. Maybe I\'ll buy myself some lunch...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000145,'Hey Harlan. Here\'s a load of knitted cloth for you.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000146,'Oomph! Here\'s a load of supplies. It must be selling fast!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000147,'Ah yes, and promptly delivered. As always, it\'s a pleasure doing business with you, Corbett.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000148,'Ahh, much appreciated, Corbett. We\'ll get these on the racks immediately.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000149,'Glad to see you\'re doing so well, Harlan. And I hope to see you again soon?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000150,'Well, I am off than. Take care, Harlan!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000151,'Now for that snack...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000152,'Hullo, Trias clan! A ball of your smoked mozzarella, if you please!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000153,'Good day. Elling! Hullo Elaine! Let me have a wheel of blue cheese, eh?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000154,'Good day, Corbett. Here\'s your cheese, fresh made this morning! And how are things at your shop?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000155,'Hi Corbett! Here, you go! I trust business is faring well at your clothier shop...?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000156,'Yes ma\'am, business is brisk!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000157,'Thanks for the cheese!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000158,'Time to get back to the shop...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000159,'I\'m back!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000160,'Ma reth bromo zoln kilagrin dra ma zoern tu ko fraht ka tadrom Ma krin drinor zaln dirnor Ma krin kan aasrugel korsul',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000161,'ROARRRRR!!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000000162,'DARKSHIRE... I HUNGER!!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000005000,'Poor Dorius. If I ever get my hands on those Dark Irons, so help me...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000005001,'Opus wants some Cuergo\'s Gold... with worm.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000005002,'Bijou lost! SQUAWK! *cough',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
@@ -244,7 +270,32 @@ INSERT INTO `db_script_string` VALUES
 (2000005228,'I should have taken the translucent pill.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000005229,'I don\'t get paid enough for this bull excrement!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
 (2000005233,'Just sit right back and you\'ll hear a ta... *hic* a tai... *hic* a taiii *hic* Damnit!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
-(2000005234,'I can\'t take these taxes! F.I.C.A. me? F.I.C.A. YOU!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+(2000005234,'I can\'t take these taxes! F.I.C.A. me? F.I.C.A. YOU!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005235,'Time for my patrol. I\'ll be back shortly.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005236,'People of the Horde, citizens of Orgrimmar, come, gather round and celebrate heroes of the Horde. On this day, $N, under the auspices of our glorious Warchief, laid a mortal blow against the Black Dragonflight. The brood mother, Onyxia, has been slain!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005237,'Bear witness to the undeniable power of your Warchief! Be lifted by the rallying cry of your dragon slayers!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005238,'Citizens and allies of Stormwind, on this day, history has been made. $N has laid waste to that which had attempted to usurp the rule of the kingdom. Gather round and join me in honoring our heroes.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005239,'Behold the might of the Alliance! The dread lady, Onyxia, hangs from the arches! Let the rallying cry of the dragon slayer lift your spirits!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005300,'The Stonewrought Dam has been saved! Three cheers for $N!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005301,'The boss wants all hands on high alert. The rusty anchor sinks tonight.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005302,'Stonemasons. . .errr. . Defias be warned:  The rusty anchor sinks tonight.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005303,'begins to manipulate the Stone of Relu over the two fossils.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005304,'By the stars! A spirit has been summoned!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005305,'Who hath summoned forth Aman?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005306,'Ah, I see you toil with relics of the past.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005307,'Be warned that even your creators are fallible.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005308,'Digging too deep into your past might bring an abrupt end to your future.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005309,'dissipates before your eyes.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005310,'It\'s a mystery of the past indeed! But a key to our future!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005311,'My, that Black Claw stout packs quite a punch!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005312,'I feel... dizzy. It\'s so hot... in... here...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005313,'Into the box me pretties! Thas it. One by one ye go.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005314,'What does allergic mean anyway? And what does it have to do with either of my kitties?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005315,'I can\'t believe dad won\'t let me keep your sister.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005316,'Don\'t worry, I\'ll find a good home for ya.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005317,'Can anyone give my adorable, extra little kitty a home?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005318,'Will someone please give my little kitten a good home?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+(2000005319,'Kitten for sale, looking for a good home.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `db_script_string` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -136,6 +136,7 @@ INSERT INTO `gameobject_involvedrelation` VALUES
 (149047,3454),
 (149502,3481),
 (151286,3505),
+(152097,3525),
 (161504,3844),
 (164689,3802),
 (164869,4083),
@@ -162,6 +163,7 @@ INSERT INTO `gameobject_involvedrelation` VALUES
 (174594,4113),
 (174595,4114),
 (174596,4116),
+(174598,4118),
 (174598,4401),
 (174599,1514),
 (174600,4115),
@@ -229,7 +231,12 @@ INSERT INTO `gameobject_involvedrelation` VALUES
 (180633,8305),
 (180642,8577),
 (180652,8597),
+(180715,8763),
+(180715,8799),
+(180717,8743),
 (180743,8744),
+(180746,8767),
+(180746,8788),
 (180747,8768),
 (180748,8769),
 (180793,8803);

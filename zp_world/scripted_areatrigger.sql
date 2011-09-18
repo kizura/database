@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -39,6 +39,21 @@ INSERT INTO `scripted_areatrigger` VALUES
 (522,'at_twiggy_flathead'),
 (1447,'at_zulfarrak'),
 (1526,'at_ring_of_law'),
+(1726,'at_scent_larkorwi'),
+(1727,'at_scent_larkorwi'),
+(1728,'at_scent_larkorwi'),
+(1729,'at_scent_larkorwi'),
+(1730,'at_scent_larkorwi'),
+(1731,'at_scent_larkorwi'),
+(1732,'at_scent_larkorwi'),
+(1733,'at_scent_larkorwi'),
+(1734,'at_scent_larkorwi'),
+(1735,'at_scent_larkorwi'),
+(1736,'at_scent_larkorwi'),
+(1737,'at_scent_larkorwi'),
+(1738,'at_scent_larkorwi'),
+(1739,'at_scent_larkorwi'),
+(1740,'at_scent_larkorwi'),
 (2026,'at_blackrock_spire'),
 (2046,'at_blackrock_spire'),
 (3066,'at_ravenholdt'),
@@ -48,10 +63,12 @@ INSERT INTO `scripted_areatrigger` VALUES
 (3549,'at_childrens_week_spot'),
 (3550,'at_childrens_week_spot'),
 (3552,'at_childrens_week_spot'),
+(3626,'at_vaelastrasz'),
 (3958,'at_zulgurub'),
 (3960,'at_zulgurub'),
 (4016,'at_shade_of_eranikus'),
-(4112,'at_naxxramas');
+(4112,'at_naxxramas'),
+(4113,'at_naxxramas');
 /*!40000 ALTER TABLE `scripted_areatrigger` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -70,6 +70,7 @@ INSERT INTO `game_event_creature` VALUES
 (46803,22),
 (46973,2),
 (51627,18),
+(52414,4),
 (52415,4),
 (52416,4),
 (53618,2),
@@ -680,6 +681,11 @@ INSERT INTO `game_event_creature` VALUES
 (94913,1),
 (94914,1),
 (94918,1),
+(105970,34),
+(138550,61),
+(138551,61),
+(138552,61),
+(138553,61),
 (160001,20),
 (160002,20),
 (160003,20),

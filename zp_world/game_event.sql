@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -52,7 +52,7 @@ INSERT INTO `game_event` VALUES
 (10,'2007-05-01 20:00:00','2020-12-31 22:59:59',525600,11520,201,'Children\'s Week '),
 (12,'2006-10-18 20:00:00','2020-12-31 22:59:59',525600,21600,324,'Hallow\'s End'),
 (13,'0000-00-00 00:00:00','2020-12-31 22:59:59',525600,1,0,'Elemental Invasions'),
-(14,'2006-01-02 05:00:00','2020-12-31 22:59:59',10080,300,0,'Fishing Extravaganza Announce'),
+(14,'2006-01-02 05:00:00','2020-12-31 22:59:59',10080,240,0,'Fishing Extravaganza Announce'),
 (15,'2006-01-01 11:00:00','2020-12-31 22:59:59',10080,120,301,'Fishing Extravaganza'),
 (16,'2005-12-31 23:00:00','2020-12-31 22:59:59',180,120,0,'Gurubashi Arena Booty Run'),
 (17,'0000-00-00 00:00:00','0000-00-00 00:00:00',525600,1,0,'Scourge Invasion'),
@@ -66,7 +66,11 @@ INSERT INTO `game_event` VALUES
 (30,'2006-01-06 23:00:00','2020-12-31 22:59:59',86400,21600,0,'Edge of Madness, Hazza\'rah'),
 (31,'2006-01-20 23:00:00','2020-12-31 22:59:59',86400,21600,0,'Edge of Madness, Renataki'),
 (32,'2006-01-04 23:00:00','2020-12-31 22:59:59',86400,21600,0,'Edge of Madness, Wushoolay'),
-(33,'2006-10-05 22:00:00','2020-10-05 22:00:00',525600,10080,321,'Harvest Festival');
+(33,'2006-10-05 22:00:00','2020-10-05 22:00:00',525600,10080,321,'Harvest Festival'),
+(34,'2006-01-04 14:00:00','2020-12-30 23:00:00',10080,180,0,'Fishing Extravaganza Turn-in'),
+(35,'2010-09-23 01:00:00','2020-12-30 23:00:00',525600,256320,0,'Winter Season Fishing'),
+(36,'2010-03-21 01:00:00','2020-12-30 23:00:00',525600,269280,0,'Summer Season Fishing'),
+(61,'2010-12-31 23:58:00','2020-12-30 23:00:00',30,10,0,'Stormwind City - Stockades Jail Break');
 /*!40000 ALTER TABLE `game_event` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

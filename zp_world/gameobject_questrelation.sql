@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -132,6 +132,7 @@ INSERT INTO `gameobject_questrelation` VALUES
 (138492,642),
 (142071,2741),
 (142071,8893),
+(142122,2875),
 (142127,2782),
 (142151,285),
 (142179,2867),
@@ -151,6 +152,7 @@ INSERT INTO `gameobject_questrelation` VALUES
 (150075,2781),
 (150075,2875),
 (151286,3506),
+(156561,176),
 (161504,3845),
 (161505,3844),
 (164867,4081),
@@ -179,6 +181,7 @@ INSERT INTO `gameobject_questrelation` VALUES
 (174594,4113),
 (174595,4114),
 (174596,4116),
+(174598,4118),
 (174598,4401),
 (174599,1514),
 (174600,4115),
@@ -263,8 +266,12 @@ INSERT INTO `gameobject_questrelation` VALUES
 (180503,8313),
 (180570,8409),
 (180633,8519),
+(180642,8578),
 (180652,8598),
+(180717,8743),
 (180743,8744),
+(180746,8767),
+(180746,8788),
 (180747,8768),
 (180748,8769),
 (180793,8803),

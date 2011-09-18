@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -1265,6 +1265,7 @@ INSERT INTO `creature_template_addon` VALUES
 (14438,0,0,0,0,0,0,NULL),
 (14439,0,0,0,0,0,0,NULL),
 (14450,0,0,1,16,0,0,NULL),
+(14494,0,0,0,0,0,0,'23196'),
 (14496,0,0,1,16,0,0,NULL),
 (14497,0,0,1,16,0,0,NULL),
 (14546,0,0,1,16,0,0,NULL),
@@ -1315,6 +1316,7 @@ INSERT INTO `creature_template_addon` VALUES
 (15115,0,0,1,16,0,0,NULL),
 (15186,0,0,1,16,0,0,NULL),
 (15187,0,0,1,16,0,0,NULL),
+(15224,0,0,0,0,0,0,'24777'),
 (15384,0,0,1,16,0,0,NULL),
 (15429,0,0,0,0,0,0,'25163'),
 (15476,0,0,1,16,0,0,NULL),

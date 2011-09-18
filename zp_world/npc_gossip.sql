@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -284,7 +284,6 @@ INSERT INTO `npc_gossip` VALUES
 (3391,2593),
 (3393,6793),
 (3394,8733),
-(3415,4513),
 (3421,7188),
 (3422,7186),
 (3428,3954),
@@ -343,8 +342,6 @@ INSERT INTO `npc_gossip` VALUES
 (4685,5799),
 (4686,5279),
 (4765,7652),
-(4770,4477),
-(4771,3573),
 (4798,565),
 (4799,5836),
 (4800,5715),
@@ -355,7 +352,6 @@ INSERT INTO `npc_gossip` VALUES
 (5585,7120),
 (5587,7117),
 (5588,7095),
-(5589,7115),
 (5598,2279),
 (5715,580),
 (5717,580),

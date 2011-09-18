@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -49,6 +49,18 @@ CREATE TABLE `creature_ai_texts` (
 LOCK TABLES `creature_ai_texts` WRITE;
 /*!40000 ALTER TABLE `creature_ai_texts` DISABLE KEYS */;
 INSERT INTO `creature_ai_texts` VALUES
+(-1147,'%s \'s death cry has stirred the nearby silithid hive',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,2,0,'12178'),
+(-1146,'Ach! Thank you so much I\'m free! Finally!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'Locheen text when spawned'),
+(-1145,'Curse you! One day, vengeance will be mine!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'Private Merle Text'),
+(-1144,'Ach! Thank you so much I\'m free! Finally!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'9876'),
+(-1143,'You will not harm Emperor Thaurissan!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,1,0,0,'10076'),
+(-1142,'I crush weaklings like you every day! Bring it on!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,1,0,0,'16059'),
+(-1141,'You want a fight? A fight you\'ll get!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,1,0,0,'16059'),
+(-1140,'I\'m going to kick yer ugly head in!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,1,0,0,'16059'),
+(-1139,'DIE, MORTALS!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5871,1,0,0,'8443'),
+(-1138,'Ahh, a new chew toy for my dogs!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,1,0,0,'Houndmaster Grebmar'),
+(-1137,'WHO IS BOTHERING ME?',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'Arch Druid Fandral'),
+(-1136,'I never thought that you could find me! Well, let\'s see what you can do...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'Tyrande Whisperwind'),
 (-1135,'None can stand against the serpent lords!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5786,1,0,0,'3671'),
 (-1119,'Kill $N!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,1,0,25,'15392'),
 (-1058,'%s seems to no longer be able to cast spells...',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,2,0,0,'7666'),
@@ -348,6 +360,7 @@ INSERT INTO `creature_ai_texts` VALUES
 (-163,'Slay them, my brethren! For the Scourge!',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5822,1,0,0,'7357'),
 (-162,'Mmm... I love my delicious Southshore stout.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'2440'),
 (-161,'A living $r... soon to be a dead like me.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'Common Undead Text'),
+(-148,'Ma reth bromo zoln kilagrin dra ma zoern tu ko fraht ka tadrom Ma krin drinor zaln dirnor Ma krin kan aasrugel korsul',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'11256'),
 (-147,'His lieutenant, Ilkurd Magthrull possesses a tome which might indicate the location of the remaining soulgems.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'4509'),
 (-146,'He worried that his power weakened, that soon even we last of his precious soulgems would fade and die.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'4509'),
 (-145,'There were hundreds imprisoned by his spell. Now only a few remain in their prisons. He would speak to us sometimes.',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,'4509'),

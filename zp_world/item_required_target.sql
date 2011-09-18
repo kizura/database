@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.15, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.16, for Linux (x86_64)
 --
 -- Host: localhost    Database: zp_world
 -- ------------------------------------------------------
--- Server version	5.5.15-log
+-- Server version	5.5.16-log
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -61,6 +61,8 @@ INSERT INTO `item_required_target` VALUES
 (12647,1,4678),
 (12647,1,4681),
 (12647,1,4685),
+(15826,1,12296),
+(15826,1,12298),
 (15908,1,1196),
 (15911,1,1126),
 (15913,1,1201),
