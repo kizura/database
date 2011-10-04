@@ -1,0 +1,1 @@
+INSERT INTO `command` (`name`, `security`, `help`) VALUES ('rate', '0', 'Setz eure Erfahrungsrate auf 1 oder 2');
