@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `gossip_menu_id` = '4783', `npcflag` = '17' WHERE `entry` = '10088';
