@@ -1,0 +1,15 @@
+UPDATE `areatrigger_teleport` SET `id` = '9999' WHERE `name` = 'Naxxramas (Exit)';
+UPDATE `areatrigger_teleport` SET `id` = '9998' WHERE `name` = 'Naxxramas (Entrance)';
+UPDATE `areatrigger_teleport` SET `id` = '9997' WHERE `name` = 'Ahn\'Qiraj Temple (Inside)'; 
+UPDATE `areatrigger_teleport` SET `id` = '9996' WHERE `name` = 'Ahn\'Qiraj Temple (Outside)';
+UPDATE `areatrigger_teleport` SET `id` = '9995' WHERE `name` = 'Ruins Of Ahn\'Qiraj (Outside)';
+UPDATE `areatrigger_teleport` SET `id` = '9994' WHERE `name` = 'Ruins Of Ahn\'Qiraj (Inside)';
+UPDATE `areatrigger_teleport` SET `id` = '9993' WHERE `name` = 'Zul\'Gurub Exit';
+UPDATE `areatrigger_teleport` SET `id` = '9992' WHERE `name` = 'Zul\'Gurub Entrance';
+UPDATE `areatrigger_teleport` SET `id` = '9991' WHERE `target_map` = '469' AND `required_quest_done` = '7761';
+UPDATE `areatrigger_teleport` SET `id` = '9990' WHERE `target_map` = '409' AND `name` = 'The Molten Core Window Entrance';
+UPDATE `areatrigger_teleport` SET `id` = '9989' WHERE `target_map` = '409' AND `name` = 'The Molten Core Window(Lava) Entrance';
+UPDATE `areatrigger_teleport` SET `id` = '9988' WHERE `target_map` = '230' AND `required_level` = '50'; 
+UPDATE `areatrigger_teleport` SET `id` = '9987' WHERE `target_map` = '409' AND `name` = 'The Molten Bridge';
+UPDATE `areatrigger_teleport` SET `id` = '9986' WHERE `target_map` = '249' AND `required_item` = '16309';
+UPDATE `areatrigger_teleport` SET `id` = '9985' WHERE `name` = 'Onyxia\'s Lair - Dustwallow Instance';
