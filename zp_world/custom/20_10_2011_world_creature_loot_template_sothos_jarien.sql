@@ -1,6 +1,7 @@
 -- ---
+
 -- --- ----- Creature_loot_template -> for npc 16101 (Jarien) adapte the dropp chance for the quest item and insert an item ---------
-DELETE FROM `creature_loot_template` WHERE `entry` = '22329' AND `entry` = '16101';
+DELETE FROM `creature_loot_template` WHERE `entry` = '16101' AND `item` = '22329';
 INSERT INTO `creature_loot_template` (`entry`, `item`, `ChanceOrQuestChance`, `groupid`, `mincountOrRef`, `maxcount`, `lootcondition`, `condition_value1`,
 `condition_value2`)
 VALUES ('16101', '22329', '0.6', '0', '1', '1', '0', '0', '0');
