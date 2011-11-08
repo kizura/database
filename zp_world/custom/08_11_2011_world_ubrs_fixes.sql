@@ -48,5 +48,5 @@ DELETE FROM `creature` WHERE `guid` = '41877' AND `id` = '10162';
 -- ---- Jan Runenblick ------------------------
 UPDATE `creature_template` SET `minhealth` = '8883', `maxhealth` = '8883' WHERE `entry` = '10509';
 DELETE FROM `creature` WHERE `guid` = '200075' AND `id` = '10509';
-INSERT INTO `gameobject` (`guid`, `id`, `map`, `spawnMask`, `phaseMask`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`)`creature` (`guid`, `id`, `map`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`)
+INSERT INTO `creature` (`guid`, `id`, `map`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `DeathState`, `MovementType`)
 VALUES ('200075', '10509', '229', '0', '0', '152.568', '-342.192', '110.959', '1.61796', '86400', '5', '0', '8883', '0', '0', '1');
